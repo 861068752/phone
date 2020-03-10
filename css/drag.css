@@ -1,0 +1,19 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+div{
+	background: burlywood;
+	margin-left: 50px;
+	float: left;
+}
+li{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}

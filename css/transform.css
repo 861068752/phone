@@ -1,0 +1,35 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.imgFrame{
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.imgul li{
+	float: left;
+}
+.imgul li a,.imgul li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dotul{
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+}
+.dotul li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius:50%;
+	background: white;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.now{
+	background: blueviolet !important;
+}

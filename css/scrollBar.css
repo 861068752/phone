@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.scrollBox{
+	width: 800px;
+	height: 400px;
+	position: relative;
+	margin: 100px auto;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.nav{
+	width: 770px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+.nav li{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	z-index: 12;
+}
+.scrollthumb{
+	width: 30px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: cadetblue;
+}
+.sBar{
+	width: 30px;
+	height: 50px;
+	background: mediumpurple;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	opacity: 0.4;
+}
+.Dowm{
+	opacity:1 !important;
+}

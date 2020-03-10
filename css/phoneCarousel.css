@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.phoneCarousel{
+	position: relative;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.imgul{
+	position: absolute;
+	top: 0;
+}
+.imgul li{
+	float: left;
+}
+.imgul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dotul{
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+.dotul li{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+	float: left;
+	margin-left: 10px;
+}
+.now{
+	background: red !important;
+}

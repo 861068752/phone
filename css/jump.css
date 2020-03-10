@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.jumpBox{
+	width: 100%;
+	position: relative;
+}
+.navul{
+	
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	
+}
+.navul li{
+	width: 120px;
+	height: 40px;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px solid ghostwhite;
+	overflow: hidden;
+	transition: all .4s;
+	color: white;
+	cursor: pointer;
+}
+.navul li:hover{
+	transform: scale(1.02);
+}
+.contentul li{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 28px;
+	color: white;
+}
+.now{
+	background: rgba(0,0,0,0.8) !important;
+	transform: scale(1.02);
+}

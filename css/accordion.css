@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.accordionBox{
+	width: 1400px;
+	height: 460px;
+	margin: 20px auto;
+	background: black;
+	position: relative;
+	overflow: hidden;
+}
+.imgul{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.imgul li{
+	width: 280px;
+	height: 460px;
+	float: left;
+	
+}
+
